@@ -5,7 +5,7 @@ import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'zoid', loadChildren: 'app/zoidberg/zoidberg.module#ZoidbergModule' }
+  { path: 'zoid', loadChildren: 'app/+zoidberg/zoidberg.module#ZoidbergModule' }
 ];
 
 export const AppRoutingModule: ModuleWithProviders =
