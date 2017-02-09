@@ -1,10 +1,10 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { TitleComponentComponent } from './title-component/title-component.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  { path: '', component: TitleComponentComponent }
+  { path: '', component: HomeComponent }
 ];
 
 export const AppRoutingModule: ModuleWithProviders =
