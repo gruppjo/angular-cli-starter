@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import { AppRoutingModule } from './app-routing.module';
+import { GagaModule } from './gaga/gaga.module';
+
 import { AppComponent } from './app.component';
 import { TitleComponentComponent } from './title-component/title-component.component';
 
@@ -14,7 +17,10 @@ import { TitleComponentComponent } from './title-component/title-component.compo
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+
+    AppRoutingModule,
+    GagaModule
   ],
   providers: [],
   bootstrap: [AppComponent]
