@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { ZoidbergComponent } from './zoidberg.component';
 
 const routes: Routes = [
-  { path: 'zoidberg', component: ZoidbergComponent }
+  { path: '', component: ZoidbergComponent }
 ];
 
 @NgModule({

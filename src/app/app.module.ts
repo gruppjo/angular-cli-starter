@@ -5,7 +5,6 @@ import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { GagaModule } from './gaga/gaga.module';
-import { ZoidbergModule } from './zoidberg/zoidberg.module';
 
 import { AppComponent } from './app.component';
 import { TitleComponentComponent } from './title-component/title-component.component';
@@ -26,7 +25,6 @@ import { HomeComponent } from './home/home.component';
 
     AppRoutingModule,
     GagaModule,
-    ZoidbergModule
   ],
   providers: [],
   bootstrap: [AppComponent]
