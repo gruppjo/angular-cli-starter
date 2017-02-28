@@ -1,3 +1,8 @@
+# AOT & Lazy
+- ejected using `ng eject`
+- `npm run build` > aot and lazy working (webpack) > `dist/`
+- `npm start` > uses webpack-dev-server (includes aot and lazy)
+
 # TestNg
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.30.
